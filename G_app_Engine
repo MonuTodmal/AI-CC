@@ -1,0 +1,19 @@
+python3 –version
+
+sudo apt update
+sudo apt install python3
+
+curl https://sdk.cloud.google.com|bash
+
+gcloud init
+
+git clone https://github.com/GoogleCloudPlatform/python-docs-samples
+
+cd python-docs-samples/appengine/standard/hello_world
+
+dev_appserver.py app.yaml
+
+
+type: http://localhost:8080 enter
+
+Hello world output will display
